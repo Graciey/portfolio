@@ -1,0 +1,15 @@
+.navbar {
+    display: flex;
+   
+}
+.navbar-collapse {
+    justify-content: center
+}
+li .nav-link{
+   margin: 0 5px
+}
+@media(max-width: 500px) {
+    .navbar-collapse {
+        display: block
+    }
+}

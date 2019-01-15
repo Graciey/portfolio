@@ -1,0 +1,43 @@
+.home {
+    /* display: flex;
+    justify-content: center */
+}
+
+.home-1 {
+    background: url(./be.jpg) no-repeat center center;
+    width: 100%;
+    height: 600px;
+    border-radius: 5px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.home-1-1 {
+   
+}
+#demo {
+    font-size: 2vw;
+    position: absolute;
+    width:48%;
+    transform: translate(0%, -40%);
+    top: 40%;
+    position: fixed;
+    /* padding-top: 220px */
+}
+
+@media(max-width: 500px) {
+    .grid {
+        width: 50%;
+        margin: 0 20px
+    }
+    .home-1 {
+        height: 300px;
+    }
+    #demo {
+        transform: translate(0%, -25%);
+        position: fixed
+        /* top: 35%; */
+        /* padding-top: 220px */
+    }
+}

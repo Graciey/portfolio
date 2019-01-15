@@ -1,0 +1,11 @@
+.service {
+    margin: 100px 0;
+}
+@media(max-width: 500px) {
+    .service p {
+        font-size:  0.6rem
+    }
+    .service {
+        margin: 0px 0;
+    }
+}

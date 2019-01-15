@@ -1,0 +1,138 @@
+.work-1 {
+    background-color: #E6E8FF;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.title p , .work-1 p{
+    font-size: 1.9rem;
+    margin: 15px 0 0 0;
+    color: black
+}
+a {
+    color: black;
+
+}
+a:hover {
+    text-decoration: none;
+    color: #000
+}
+.work-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly
+}
+.work-content-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+}
+.left {
+    width: 80%
+}
+.right {
+    width: 100%;
+}
+.right .face {
+    width: 80%;
+    float: right
+}
+span {
+    font-size: 1.4rem
+}
+.robo {
+    width: 80%;
+    float: left
+}
+.left-robo {
+   width: 80%
+   
+}
+.right-robo {
+    width: 80%
+}
+hr {
+   max-width: 1200px
+}
+.role-design {
+    color: #27ae60;
+}
+.role-frontend {
+    color: #9b59b6;
+}
+.role-frontend::before {
+    content: ' • ';
+    color: #000;
+}
+.role-design-robo {
+    color: #27ae60;
+}
+.role-frontend-robo {
+    color: #9b59b6;
+}
+.role-frontend-start, .role-design-start {
+    color: #27ae60;
+}
+.role-design-robo::before {
+    content: ' • ';
+    color: #000;
+}
+.role-frontend-start::before {
+    content: ' • ';
+    color: #000;
+}
+.role-backend::before {
+    content: ' • ';
+    color: #000;
+}
+.role-description p {
+    font-size: 1.3rem;
+}
+
+@media(max-width: 500px) {
+    .work-content {
+        /* width: 100%; */
+        grid-template-columns: 1fr;
+        
+    }
+    .work-content-2 {
+        /* width: 100%; */
+        grid-template-columns: 1fr;
+        
+    }
+    .left {
+        width: 100%;
+     
+    }
+    .right {
+        width: 100%;
+        padding: 15px 0
+    }
+    .robo {
+        width: 100%;
+        float: none
+    }
+    .left-robo {
+       width: 100%
+       
+    }
+    .right-robo {
+        width: 100%
+    }
+    .right .face {
+        width: 100%;
+        float: none
+    }
+    .role-description p {
+        font-size: 1.0rem;
+    }
+    .left h4 {
+        font-size: 1.2rem
+    }
+    span {
+        font-size: 1.0rem;
+    }
+    .work-1 .work {
+        font-size: 1.2rem
+    }
+}

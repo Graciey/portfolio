@@ -1,0 +1,39 @@
+.home-2 {
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    color: #f1f1f1;
+    font-size: 1.9rem;
+    border-radius: 5px;
+    padding: 25px 0
+}
+.home-2-1 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.grid {
+    width: 50%;
+    margin: 0 50px
+}
+.title {
+    position: relative;
+}
+.title p{
+    font-size: 26px;
+    margin: 15px 0 0 0;
+    color: black
+}
+.title img {
+   
+}
+
+@media(max-width: 500px) {
+    .grid {
+        width: 50%;
+        margin: 0 20px
+    }
+    .title p {
+        margin: 0px 0 0 0;
+    }
+}
