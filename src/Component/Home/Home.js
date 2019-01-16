@@ -21,8 +21,8 @@ var speed = 50;
    render() {
 
      return(
-      <div className="px-4 py-4 home">
-        <div className="home-1">
+      <div className="px-3 py-4 home" id="home">
+        <div className="home-1 shadow">
          <div className="home-1-1 px-3">
           <p id="demo"></p>
          </div>

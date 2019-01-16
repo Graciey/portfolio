@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import grace from './grace.jpg';
 import {Link} from 'react-router-dom';
 import './Navbar.css';
 
@@ -11,7 +10,7 @@ class Navbar extends Component {
         
         return(
             <nav className="navbar navbar-expand-lg navbar-light bg-light position-relative">
-                <a className="navbar-brand " href="#" style={{color: 'purple', fontSize: ''}}>Grace</a>
+                <span className="navbar-brand " style={{color: 'purple', fontSize: ''}}>Grace</span>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

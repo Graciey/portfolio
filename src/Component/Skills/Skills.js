@@ -17,17 +17,17 @@ const Skills = ()=> {
           <div className="home-2 px-4">
           <div className="text-center title">
             <p>Skills</p>
-            <img src={flower} className="" alt="image"/>
+            <img src={flower} className="" alt="flower"/>
           </div>
           <div className="home-2-1 py-3">
             <div className="grid">
-                <img src={react} style={{width: '15%'}} alt="image"/>
+                <img src={react} style={{width: '15%'}} alt="flower"/>
                 <div className="progress " >
                   <div className="progress-bar" role="progressbar" style={{width: "60%", color: '', backgroundColor: ''}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
                 </div>
             </div>
             <div className="grid">
-                <img src={js} style={{width: '15%'}} alt="image"/>
+                <img src={js} style={{width: '15%'}} alt="flower"/>
                 <div className="progress " >
                   <div className="progress-bar" role="progressbar" style={{width: "60%", color: '', backgroundColor: ''}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
                 </div>
@@ -35,13 +35,13 @@ const Skills = ()=> {
           </div>
           <div className="home-2-1 py-2">
             <div className="grid">
-                <img src={node} style={{width: '15%'}} alt="image"/>
+                <img src={node} style={{width: '15%'}} alt="flower"/>
                 <div className="progress " >
                   <div className="progress-bar" role="progressbar" style={{width: "60%", color: '', backgroundColor: ''}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
                 </div>
             </div>
             <div className="grid">
-                <img src={express} style={{width: '35%'}} alt="image"/>
+                <img src={express} style={{width: '35%'}} alt="flower"/>
                 {/* <p style={{fontSize: '35px', color: 'black'}}><b>express</b></p> */}
                 <div className="progress " >
                   <div className="progress-bar" role="progressbar" style={{width: "60%", color: '', backgroundColor: ''}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
@@ -50,13 +50,13 @@ const Skills = ()=> {
           </div>
           <div className="home-2-1 py-2">
             <div className="grid">
-                <img src={boot} style={{width: '15%'}} alt="image"/>
+                <img src={boot} style={{width: '15%'}} alt="flower"/>
                 <div className="progress " >
                   <div className="progress-bar" role="progressbar" style={{width: "100%", color: '', backgroundColor: ''}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%</div>
                 </div>
             </div>
             <div className="grid">
-                <img src={git} style={{width: '12%'}} alt="image"/>
+                <img src={git} style={{width: '12%'}} alt="flower"/>
                 <div className="progress " >
                   <div className="progress-bar" role="progressbar" style={{width: "75%", color: '', backgroundColor: ''}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div>
                 </div>
@@ -64,13 +64,13 @@ const Skills = ()=> {
           </div>
           <div className="home-2-1 py-2">
             <div className="grid">
-                <img src={html} style={{width: '10%'}} alt="image"/>
+                <img src={html} style={{width: '10%'}} alt="flower"/>
                 <div className="progress " >
                   <div className="progress-bar" role="progressbar" style={{width: "100%", color: '', backgroundColor: ''}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%</div>
                 </div>
             </div>
             <div className="grid">
-                <img src={css} style={{width: '10%'}} alt="image"/>
+                <img src={css} style={{width: '10%'}} alt="flower"/>
                 <div className="progress " >
                   <div className="progress-bar" role="progressbar" style={{width: "100%", color: '', backgroundColor: ''}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%</div>
                 </div>

@@ -8,13 +8,13 @@ const Services = ()=> {
         <div className="py-5 service d-flex justify-content-center" >
             <div class="card text-center mx-1">
                 <div class="card-body">
-                <img src={graphics} className="text-center" style={{width: '100%'}} alt="image"/>
+                <img src={graphics} className="text-center" style={{width: '100%'}} alt="flower"/>
                 <p  className="mx-5">Web Development</p>
                 </div>
             </div>
             <div class="card text-center mx-1">
                 <div class="card-body">
-                <img src={laptop} className="text-center" style={{width: '100%'}} alt="image"/>
+                <img src={laptop} className="text-center" style={{width: '100%'}} alt="flower"/>
                 <p  className="mx-5">Graphics Design</p>
                 </div>
             </div>

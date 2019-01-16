@@ -13,7 +13,7 @@ const Works = ()=> {
         <div className="px-4">
             <div className="text-center py-3 title">
                 <p>Works</p>
-                <img src={flower} className="" alt="image"/>
+                <img src={flower} className="" alt="flower"/>
             </div>
             <div className="work-1 px-4">
                 <div className="py-5">
@@ -33,7 +33,7 @@ const Works = ()=> {
                         
                             </div>
                             <div className="right" >
-                                <img src={face} className="face" alt="image"/>
+                                <img src={face} className="face" alt="flower"/>
                             </div>
                             {/* <div><hr/></div> */}
                         </div>
@@ -47,10 +47,10 @@ const Works = ()=> {
 
                         <div className="work-content-2 py-5 px-4">
                             <div className="left-robo" >
-                                <img src={robot} className="robo"/>
+                                <img src={robot} className="robo" alt="flower"/>
                             </div>
                             <div className="right-robo">
-                                <h4 className="app"><b><a href="https://admiring-saha-595ada.netlify.com">Robot Friends</a></b></h4>
+                                <h4 className="app"><b><a href="https://lucid-montalcini-499810.netlify.com/">Robot Friends</a></b></h4>
                                 <span className="role-frontend-robo">Front-End Development</span>
                                 <span className="role-design-robo">Design</span>
                                 {/* <span className="role-backend">Back-End</span> */}
@@ -74,14 +74,14 @@ const Works = ()=> {
                             
                             </div>
                             <div className="right" >
-                                <img src={startup} className="face"/>
+                                <img src={startup} className="face" alt="flower"/>
                             </div>
                         </div>
                         <div><hr/></div>
                        
                         <div className="work-content-2 py-5 px-4">
                             <div className="left-robo" >
-                                <img src={work} className="robo"/>
+                                <img src={work} className="robo" alt="flower"/>
                             </div>
                             <div className="right-robo">
                                 <h4 className="app"><b><a href="https://admiring-saha-595ada.netlify.com">Portfolio Website</a></b></h4>
@@ -108,7 +108,7 @@ const Works = ()=> {
                             
                             </div>
                             <div className="right" >
-                                <img src={pixel} className="face"/>
+                                <img src={pixel} className="face" alt="flower"/>
                             </div>
                         </div>
 

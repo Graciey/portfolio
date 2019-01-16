@@ -11,13 +11,7 @@ import Services from './Component/Services/Services';
 
 
 class App extends Component {
-  
 
-  // componentDidMount() {
-  //   fetch('http://localhost:4000').then(data => {
-  //     return data.json()
-  //   }).then(console.log)
-  // }
   render() {
     return (
       <div className="App">
@@ -28,10 +22,6 @@ class App extends Component {
         <Route path='/works'  exact component={Works}/>
         <Route path='/form'  exact component={Form}/>
         <Footer/>
-        {/* <Route path='/form'  exact component={}/> */}
-        {/* <Home />
-        <Skills/>
-        <Works/> */}
       </div>
     );
   }
