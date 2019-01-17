@@ -8,8 +8,10 @@ import express from './Expressjs.png';
 import boot from './boot.png';
 import js from './js.svg';
 import './Skills.css';
-import flower from './flower.png'
-import 'bootstrap-4-react';
+import flower from './flower.png';
+import postgres from './postgres.png';
+import python from './python.png';
+
 
 const Skills = ()=> {
     return(
@@ -71,6 +73,20 @@ const Skills = ()=> {
             </div>
             <div className="grid">
                 <img src={css} style={{width: '10%'}} alt="flower"/>
+                <div className="progress " >
+                  <div className="progress-bar" role="progressbar" style={{width: "100%", color: '', backgroundColor: ''}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%</div>
+                </div>
+            </div>
+          </div>
+          <div className="home-2-1">
+            <div className="grid">
+                <img src={python} style={{width: '9%'}} alt="flower" className=""/>
+                <div className="progress" >
+                  <div className="progress-bar" role="progressbar" style={{width: "25%", color: '', backgroundColor: ''}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%</div>
+                </div>
+            </div>
+            <div className="grid">
+                <img src={postgres} style={{width: '10%'}} alt="flower"/>
                 <div className="progress " >
                   <div className="progress-bar" role="progressbar" style={{width: "100%", color: '', backgroundColor: ''}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%</div>
                 </div>
