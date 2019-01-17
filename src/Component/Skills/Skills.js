@@ -82,7 +82,7 @@ const Skills = ()=> {
             <div className="grid">
                 <img src={python} style={{width: '9%'}} alt="flower" className=""/>
                 <div className="progress" >
-                  <div className="progress-bar" role="progressbar" style={{width: "25%", color: '', backgroundColor: ''}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">100%</div>
+                  <div className="progress-bar" role="progressbar" style={{width: "25%", color: '', backgroundColor: ''}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
                 </div>
             </div>
             <div className="grid">
