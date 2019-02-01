@@ -4,7 +4,7 @@ import './Footer.css'
 const Footer = ()=> {
     return(
         <div className="d-flex justify-content-center footer">
-            <p>&copy; 2018 Busycoding. All rights reserved | Designed by Zoe</p>
+            <p>&copy; 2019 All rights reserved | Designed by Omoologo</p>
         </div>
     )
 }
